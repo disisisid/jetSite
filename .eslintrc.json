@@ -1,7 +1,0 @@
-{
-  /* Your specific configuration */
-  "rules": {
-    "@typescript-eslint/no-function-return-type": 0 // Here I manually override this specific rule
-    /* The rest of your rule overrides */
-  }
-}

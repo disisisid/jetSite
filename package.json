@@ -2,6 +2,14 @@
   "name": "jetSite",
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "rules": {
+      "@typescript-eslint/no-function-return-type": 0
+    }
+  },
   "dependencies": {
     "@oracle/oraclejet": "~7.0.0"
   },
